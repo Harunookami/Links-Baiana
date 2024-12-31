@@ -152,8 +152,33 @@ ul li a:hover {
     border-radius: 50%;
 }
 
+/*
 @media (min-width: 700px) {
     :root {
-        --bg-url
+        --bg-url: url(##);
+    }
+
+    .light  {
+        --bg-url: url(##);
+    }
+} 
+
+*/
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+    to{
+        left: 80%;
+    }
+}
+
+@keyframes slide-back {
+    from {
+        left: 50%;
+    }
+    to{
+        left: 0;
     }
 }
